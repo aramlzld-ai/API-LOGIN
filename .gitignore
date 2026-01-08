@@ -1,0 +1,15 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Config
+appsettings.Development.json
+
+# Node / Frontend
+node_modules/
+
+# OS archivos
+.DS_Store
+Thumbs.db
