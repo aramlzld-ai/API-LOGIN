@@ -1,0 +1,111 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E0E0E0;
+    position: fixed;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+#logoutButtonAdmin, #logoutButtonEmpleado, #logoutButtonInvitado{
+    width: auto;
+    padding: 8px 18px;
+    background-color: #f8f9fa;
+    color: #1976D2; 
+    border: 1.5px solid #1976D2; 
+    border-radius: 50px; 
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px; 
+}
+
+#logoutButtonAdmin:hover, #logoutButtonEmpleado:hover, #logoutButtonInvitado:hover{
+    background-color: red; 
+    border-color: red;
+    color: white;
+    box-shadow: 0 4px 8px rgba(25, 118, 210, 0.3); 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E3F2FD;
+    font-family: sans-serif;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.contenedorLogin, .contenedorRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+br{
+    margin: 10px 0;
+}
+h2{
+    color: #1976D2;
+    font-style: oblique;
+}
+label{
+    color: black;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10;
+    width: 100%;
+    background-color: #F4F7F6;
+    box-sizing: border-box;
+}
+input[type="button"]{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #1976D2;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+input[type="button"]:hover{
+    background-color: #A7BBC7;
+    transition: background-color 0.3s;
+}
+a{
+    transition: color 0.3s;
+    color: #1976D2;
+    text-decoration: solid;
+
+}
+a:hover{
+    color: lightgray;
+}
+p{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font: 15;
+    margin: 0;
+}
